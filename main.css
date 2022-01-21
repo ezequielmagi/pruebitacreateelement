@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -19,6 +21,7 @@ body{
   height: 300px;
   width: 250px;
   margin: 1em;
+  font-family: 'Roboto';
 }
 
 .card:hover{
@@ -26,6 +29,15 @@ body{
   transition: 0.3s ease;
 }
 
+.itemTitle{
+  font-weight: 300;
+}
+.itemContent {
+  font-weight: 500;
+}
+.itemContent, h3 {
+  padding-left: 7px;
+}
 
 
 

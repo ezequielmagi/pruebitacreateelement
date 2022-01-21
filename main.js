@@ -20,9 +20,9 @@ const artist = [
     listItems.classList.add('card')
     listItems.innerHTML = 
               ` <img class='imgContainer' src='${pic}'/>
-                <li><p>Artist: </p> <h3> ${ artist } </h3> </li>
-                <li><p>Genre: </p> <p> ${ genre } </p></li> 
-                <li><p>Hit: </p> <p> ${ hit } </p></li>
+                <li><p class="itemTitle" >Artist:  </p> <h3> ${ artist } </h3> </li>
+                <li><p class="itemTitle" >Genre:  </p> <p class="itemContent" > ${ genre } </p></li> 
+                <li><p class="itemTitle" >Hit:  </p> <p class="itemContent" > ${ hit } </p></li>
               `
 
   
